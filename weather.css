@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+flex-wrap:wrap;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+background:linear-gradient(rgb(11, 168, 147),rgb(59, 188, 228));
+    color:white;
+}
+.location,
+.temperature{
+    height:30vh;
+    width:50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+}
+.temperature{
+    flex-direction:column;
+}
+.degree-section,
+.temperature-description
+{    
+    display:flex;
+     align:center;
+    align-items:center;
+    margin-bottom:4vw;
+font-size:3vw;
+}
+.day,.night{
+    
+    margin:3vw;
+    padding:2vw;
+    border:2px solid rgb(3, 3, 133);
+    color:rgb(3, 3, 133);
+    border-radius:5vw;
+    width:auto;
+    height:auto;
+    font-size:3vw;
+}
+.active{
+    background-color:white;
+}

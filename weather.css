@@ -6,21 +6,53 @@
 body{
     height:100vh;
     display:flex;
-flex-wrap:wrap;
     justify-content:center;
     flex-direction:column;
     align-items:center;
 background:linear-gradient(rgb(11, 168, 147),rgb(59, 188, 228));
     color:white;
 }
+.ma{
+    padding:1vw;
+    border:2px solid rgb(3, 3, 133);
+    border-radius:4vw;
+    width:auto;
+    height:auto;
+    margin-bottom:10vh;
+}
+
+.head{
+    
+    height:8vw ;
+    width:8vw;
+}
+.heading{
+    text-align:center;
+    margin:1.5vw;
+    float:right;
+color:rgb(3, 3, 133);
+font-size:5vw;
+}
 .location,
 .temperature{
-    height:30vh;
-    width:50%;
+    font-size:2vw;
     display:flex;
+    text-align:center;
     flex-wrap:wrap;
     justify-content:space-around;
     align-items:center;
+}
+.temperature-description{
+    padding:1vw;
+    float:left;
+}
+.thermo{
+    height:5vw ;
+    width:5vw;
+}
+.temp_icon{
+    height:8vw ;
+    width:8vw;
 }
 .temperature{
     flex-direction:column;
@@ -29,7 +61,7 @@ background:linear-gradient(rgb(11, 168, 147),rgb(59, 188, 228));
 .temperature-description
 {    
     display:flex;
-     align:center;
+     text-align-last:center;
     align-items:center;
     margin-bottom:4vw;
 font-size:3vw;
@@ -44,6 +76,11 @@ font-size:3vw;
     width:auto;
     height:auto;
     font-size:3vw;
+}
+.ini{
+    border-radius:8vw;
+    height:6vw ;
+    width:6vw;
 }
 .active{
     background-color:white;

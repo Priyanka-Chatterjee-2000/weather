@@ -3,13 +3,18 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <link rel="stylesheet" href="./weather.css"/>
 <link rel="manifest" href="./manifest.webmanifest"/>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <title>Anytime Weather</title>
 <link rel="icon" href="weather.png" type="image/icon type">
 </head>
 <body>
+    <div class="ma">
+    <img class="head" src="weather.png">
+    <h1 class="heading">Anytime weather<h1>
+    </div>
 <div class="location">
+    <i class='fas fa-map-marker-alt' style='font-size:3vw' color="white"></i>
     <h1 class="location-timezone">Timezone</h1>
-<img class="temp_icon" src="01n.png" alt="Icon">
 </div>
 <div class="temperature">
     <div class="degree-section">
@@ -18,11 +23,18 @@
 <span> / </span>
 <h2 class="temperature-farenheith"></h2>
 <span>F</span>
+<span><img src="thermometer.png" class="thermo"><span>
     </div>
+    </div>
+    <div>
+        <img class="temp_icon" src="01n.png" alt="Icon">        
 <div class="temperature-description">temperature description</div>
-</div>
+    </div>
+
 <div class="day_night">
+    <span><img src="sun.png"  class="ini"></span>
     <span class="day active">Day</span>
+    <span><img src="night.png" class="ini"></span>
     <span class="night">Night</span>
 </div>
 <script src="weather.js"></script>
